@@ -6,3 +6,184 @@ Green: #00B172
 White: #FFF
 
 */
+
+*{
+    margin: 0;
+    /*font-family: 'Open Sans', sans-serif;*/
+        
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    align-self: center;
+    font-size: 20px;
+}
+
+.nav {
+    position: fixed;
+    height: 10px;
+    width: 100%;
+
+}
+
+.nav-contents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.nav-menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 300;
+    height: 70px;
+    list-style-type: none;
+        
+        
+}
+
+li a{
+    
+    color: #1A1A1A;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+.spotify-logo {
+    width: 250px;
+    margin-right: 20px;
+    margin: 15px 30px 15px 30px;
+}
+
+/* Main */
+
+#presentation {
+    background-image: url("/lab-css-spotify-clone/images/landing.jpg");
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+}
+
+h1{
+    
+    font-size: 70px;
+    text-align: center;
+    color: #fff;
+    padding-top: 300px;
+    font-weight: 500;
+}
+
+main  p{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 200;
+    color: #fff;
+}
+
+header{
+    
+    height: 100px;
+}
+
+section > h2{
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+    padding-bottom: 2px;
+    font-size: 35px;
+    font-weight: 600;
+    border-bottom: 4px solid #00B172;
+    width: 330px;
+}
+
+
+/* Section 2*/
+
+.characteristics-frames {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    margin: auto;
+}
+
+.characteristics-frames div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+}
+
+div > img{
+    height: 100px;
+    width: auto;   
+}
+
+section h3{
+    color: #00B172;
+    font-size: 30px;
+    font-weight: 600;
+    height: 20px;
+    margin: 20px auto;
+}
+
+section p{
+    font-size: 24px;
+}
+
+/* Seaction 3*/
+
+.green-section {
+    background-image: url("/lab-css-spotify-clone/images/spotify-icon-white.png");
+    background-position: center;
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-color: #00B172;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 70px 30px 30px 30px;
+    padding: 70px 100px 70px 100px;
+    
+}
+.green-section > img{
+    height: 600px;
+    width: auto;
+    margin-top: 50px;
+    
+}
+
+.green-section div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0;
+    color: #fff;
+    
+}
+
+.green-section p{
+    font-size: 20px;
+    width: 350px;
+}
+
+.green-section h2{
+    font-size: 35px;
+    width: 490px;
+    padding-bottom: 5px;
+    border-bottom: 4px solid #fff;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.green-section h3{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 20px 0 50px 0;
+}
