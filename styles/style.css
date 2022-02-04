@@ -63,7 +63,7 @@ li a{
 /* Main */
 
 #presentation {
-    background-image: url("/lab-css-spotify-clone/images/landing.jpg");
+    background-image: url("../images/landing.jpg");
     background-size: cover;
     height: 800px;
     width: 100%;
